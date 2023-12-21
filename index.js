@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const sha = require("sha256");
 const cors = require("cors");
 const session = require("express-session");
+const path = require("path");
 
 app.use(
   session({
@@ -31,6 +32,9 @@ mongoose
   .catch((err) => {
     console.log("MongoDB 연결 실패: ", err);
   });
+
+// build
+app.use(express.static(path.join(__dirname, "build")));
 
 app.post("/signup", async (req, res) => {
   console.log(req.body.userId);
