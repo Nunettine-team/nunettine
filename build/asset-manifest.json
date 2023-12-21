@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6df6ed0.css",
+    "main.js": "/static/js/main.fd024b1d.js",
+    "static/media/온글잎의연체.woff": "/static/media/온글잎의연체.ec88d56786b29992cd3a.woff",
+    "static/media/SKYBORI.woff": "/static/media/SKYBORI.4050d752e76959b9f7f7.woff",
+    "static/media/봉숭아틴트체.woff": "/static/media/봉숭아틴트체.4d8f7dc9e620da8230f0.woff",
+    "index.html": "/index.html",
+    "main.d6df6ed0.css.map": "/static/css/main.d6df6ed0.css.map",
+    "main.fd024b1d.js.map": "/static/js/main.fd024b1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6df6ed0.css",
+    "static/js/main.fd024b1d.js"
+  ]
+}
